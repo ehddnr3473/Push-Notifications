@@ -14,6 +14,7 @@
 		6B77BD2029FFF78300A78332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B77BD1E29FFF78300A78332 /* Main.storyboard */; };
 		6B77BD2229FFF78400A78332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B77BD2129FFF78400A78332 /* Assets.xcassets */; };
 		6B77BD2529FFF78400A78332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B77BD2329FFF78400A78332 /* LaunchScreen.storyboard */; };
+		6B77BD2E29FFFD7F00A78332 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B77BD2D29FFFD7F00A78332 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6B77BD2429FFF78400A78332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B77BD2629FFF78400A78332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B77BD2C29FFF90800A78332 /* PushNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotifications.entitlements; sourceTree = "<group>"; };
+		6B77BD2D29FFFD7F00A78332 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9F54022F00B58F9AED4ABD0F /* Pods_PushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECE77D21DCF90776D9D7BCA /* Pods-PushNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifications.release.xcconfig"; path = "Target Support Files/Pods-PushNotifications/Pods-PushNotifications.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 			children = (
 				6B77BD2C29FFF90800A78332 /* PushNotifications.entitlements */,
 				6B77BD1829FFF78300A78332 /* AppDelegate.swift */,
+				6B77BD2D29FFFD7F00A78332 /* GoogleService-Info.plist */,
 				6B77BD1A29FFF78300A78332 /* SceneDelegate.swift */,
 				6B77BD1C29FFF78300A78332 /* ViewController.swift */,
 				6B77BD1E29FFF78300A78332 /* Main.storyboard */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B77BD2529FFF78400A78332 /* LaunchScreen.storyboard in Resources */,
+				6B77BD2E29FFFD7F00A78332 /* GoogleService-Info.plist in Resources */,
 				6B77BD2229FFF78400A78332 /* Assets.xcassets in Resources */,
 				6B77BD2029FFF78300A78332 /* Main.storyboard in Resources */,
 			);
